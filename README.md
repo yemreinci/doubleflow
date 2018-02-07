@@ -27,7 +27,7 @@ Graph g;
 auto x1 = g.variable(3);  // creates a variable with initial value 3
 auto x2 = g.variable(2);
 
-auto y = g.mul(x1, x2); // creates a variable such that y = x1 + x2
+auto y = g.mul(x1, x2); // creates a variable such that y = x1 * x2
 
 g.run(y); // runs the graph with y as the output
 
