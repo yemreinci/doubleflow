@@ -20,7 +20,7 @@ It implements 14 mathematical operations:
 
 ## Example
 
-```
+``` c++
 // you first need to declare a Graph variable
 Graph g;
 
